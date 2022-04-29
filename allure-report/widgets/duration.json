@@ -1,0 +1,11 @@
+[ {
+  "uid" : "1e92e520abf5a61a",
+  "name" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager",
+  "time" : {
+    "start" : 1634656056224,
+    "stop" : 1634656161690,
+    "duration" : 105466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

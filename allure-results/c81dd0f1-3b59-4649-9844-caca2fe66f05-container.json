@@ -1,0 +1,1 @@
+{"uuid":"c81dd0f1-3b59-4649-9844-caca2fe66f05","name":"Scenario: Check money exchange rate","children":["60369ae0-8065-4210-8b66-24032d77bd6f"],"befores":[{"name":"StepDefs.setReportName(Scenario)","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1651247284277,"stop":1651247284295}],"afters":[],"start":1651247284275,"stop":1651247300143}

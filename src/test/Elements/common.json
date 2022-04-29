@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "common",
+        "parent": "",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "always allow button": "//button[contains(text(),'Kabul Et')]"
+        }
+      ]
+    }
+  ]
+}

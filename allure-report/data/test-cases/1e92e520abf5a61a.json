@@ -1,0 +1,1056 @@
+{
+  "uid" : "1e92e520abf5a61a",
+  "name" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager",
+  "fullName" : "Orion Finance Finco Test Scenarios - İŞ AKIŞ: Is Akis: TC005 - E2E Assign to Pool - Unit Manager",
+  "historyId" : "6c8bf2bb7bc444f929688ad2f1428722",
+  "time" : {
+    "start" : 1634656056224,
+    "stop" : 1634656161690,
+    "duration" : 105466
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StepDefs.setReportName(Scenario)",
+    "time" : {
+      "start" : 1634656056231,
+      "stop" : 1634656056384,
+      "duration" : 153
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Open the https://orion-finance-finco-amtest.apps.dvt-fcloud.vfinans.local/ URL",
+      "time" : {
+        "start" : 1634656056388,
+        "stop" : 1634656056434,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see login page",
+      "time" : {
+        "start" : 1634656056435,
+        "stop" : 1634656061032,
+        "duration" : 4597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter \"3003\" text to username text area at index 1",
+      "time" : {
+        "start" : 1634656061032,
+        "stop" : 1634656063906,
+        "duration" : 2874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e71424887c170b3",
+        "name" : "The text has been entered.",
+        "source" : "9e71424887c170b3.png",
+        "type" : "image/png",
+        "size" : 190321
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter \"1\" text to password text area at index 1",
+      "time" : {
+        "start" : 1634656063906,
+        "stop" : 1634656066625,
+        "duration" : 2719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2819dfb4b3413be6",
+        "name" : "The text has been entered.",
+        "source" : "2819dfb4b3413be6.png",
+        "type" : "image/png",
+        "size" : 190673
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait login button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656066625,
+        "stop" : 1634656068664,
+        "duration" : 2039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: login button at index 1",
+      "time" : {
+        "start" : 1634656068665,
+        "stop" : 1634656069661,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a14512f7e47051a",
+        "name" : "Element is clicked.",
+        "source" : "a14512f7e47051a.png",
+        "type" : "image/png",
+        "size" : 190392
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see home page",
+      "time" : {
+        "start" : 1634656069663,
+        "stop" : 1634656071738,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait customer transactions button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656071739,
+        "stop" : 1634656073790,
+        "duration" : 2051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: customer transactions button at index 1",
+      "time" : {
+        "start" : 1634656073791,
+        "stop" : 1634656074272,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d1b90253e38e0b0",
+        "name" : "Element is clicked.",
+        "source" : "8d1b90253e38e0b0.png",
+        "type" : "image/png",
+        "size" : 35908
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see customerTransactions page",
+      "time" : {
+        "start" : 1634656074272,
+        "stop" : 1634656076318,
+        "duration" : 2046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait customer group management button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656076318,
+        "stop" : 1634656078363,
+        "duration" : 2045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: customer group management button at index 1",
+      "time" : {
+        "start" : 1634656078375,
+        "stop" : 1634656078967,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23312c68a0eecc9",
+        "name" : "Element is clicked.",
+        "source" : "23312c68a0eecc9.png",
+        "type" : "image/png",
+        "size" : 36168
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait add new main group button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656078968,
+        "stop" : 1634656082694,
+        "duration" : 3726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: add new main group button at index 1",
+      "time" : {
+        "start" : 1634656082695,
+        "stop" : 1634656083267,
+        "duration" : 572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e14b310285c06bc4",
+        "name" : "Element is clicked.",
+        "source" : "e14b310285c06bc4.png",
+        "type" : "image/png",
+        "size" : 54570
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter unique text to main group name text area at index 1",
+      "time" : {
+        "start" : 1634656083267,
+        "stop" : 1634656086534,
+        "duration" : 3267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7296e9649c4a3912",
+        "name" : "The text has been entered.",
+        "source" : "7296e9649c4a3912.png",
+        "type" : "image/png",
+        "size" : 57520
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait save button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656086534,
+        "stop" : 1634656088600,
+        "duration" : 2066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: save button at index 1",
+      "time" : {
+        "start" : 1634656088601,
+        "stop" : 1634656089493,
+        "duration" : 892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "151dd94e9fe30af8",
+        "name" : "Element is clicked.",
+        "source" : "151dd94e9fe30af8.png",
+        "type" : "image/png",
+        "size" : 64235
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait warning popup element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656089494,
+        "stop" : 1634656091544,
+        "duration" : 2050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I clear text to warning popup text area at index 1",
+      "time" : {
+        "start" : 1634656091545,
+        "stop" : 1634656096275,
+        "duration" : 4730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea017a2333bfb",
+        "name" : "The text has been deleted.",
+        "source" : "ea017a2333bfb.png",
+        "type" : "image/png",
+        "size" : 61990
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter \"AUTOMATION\" text to warning popup text area at index 1",
+      "time" : {
+        "start" : 1634656096275,
+        "stop" : 1634656098716,
+        "duration" : 2441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bcca41d3a0e2b46",
+        "name" : "The text has been entered.",
+        "source" : "5bcca41d3a0e2b46.png",
+        "type" : "image/png",
+        "size" : 62964
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait yes button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656098717,
+        "stop" : 1634656100795,
+        "duration" : 2078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: yes button at index 1",
+      "time" : {
+        "start" : 1634656100795,
+        "stop" : 1634656101509,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f03c542792caf39",
+        "name" : "Element is clicked.",
+        "source" : "f03c542792caf39.png",
+        "type" : "image/png",
+        "size" : 56368
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait reference number text area element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656101509,
+        "stop" : 1634656103581,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I get the information: reference number text area at index 1",
+      "time" : {
+        "start" : 1634656103582,
+        "stop" : 1634656103977,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait close button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656103978,
+        "stop" : 1634656106006,
+        "duration" : 2028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: close button at index 1",
+      "time" : {
+        "start" : 1634656106007,
+        "stop" : 1634656107532,
+        "duration" : 1525
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d76094d17e0e0a74",
+        "name" : "Element is clicked.",
+        "source" : "d76094d17e0e0a74.png",
+        "type" : "image/png",
+        "size" : 51351
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see home page",
+      "time" : {
+        "start" : 1634656107533,
+        "stop" : 1634656109608,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait close system button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656109608,
+        "stop" : 1634656111650,
+        "duration" : 2042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: close system button at index 1",
+      "time" : {
+        "start" : 1634656111650,
+        "stop" : 1634656112409,
+        "duration" : 759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b145e8bb4f94eb0f",
+        "name" : "Element is clicked.",
+        "source" : "b145e8bb4f94eb0f.png",
+        "type" : "image/png",
+        "size" : 55679
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given  Open the https://orion-finance-finco-amtest.apps.dvt-fcloud.vfinans.local/ URL",
+      "time" : {
+        "start" : 1634656112411,
+        "stop" : 1634656112427,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see login page",
+      "time" : {
+        "start" : 1634656112427,
+        "stop" : 1634656116271,
+        "duration" : 3844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter \"3004\" text to username text area at index 1",
+      "time" : {
+        "start" : 1634656116272,
+        "stop" : 1634656119470,
+        "duration" : 3198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f503ae6207041ecb",
+        "name" : "The text has been entered.",
+        "source" : "f503ae6207041ecb.png",
+        "type" : "image/png",
+        "size" : 190321
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter \"1\" text to password text area at index 1",
+      "time" : {
+        "start" : 1634656119470,
+        "stop" : 1634656122232,
+        "duration" : 2762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ff2030e1943ec57",
+        "name" : "The text has been entered.",
+        "source" : "8ff2030e1943ec57.png",
+        "type" : "image/png",
+        "size" : 190687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait login button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656122232,
+        "stop" : 1634656124278,
+        "duration" : 2046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: login button at index 1",
+      "time" : {
+        "start" : 1634656124279,
+        "stop" : 1634656125274,
+        "duration" : 995
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8973a1ca61b70c3d",
+        "name" : "Element is clicked.",
+        "source" : "8973a1ca61b70c3d.png",
+        "type" : "image/png",
+        "size" : 190637
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see home page",
+      "time" : {
+        "start" : 1634656125274,
+        "stop" : 1634656127325,
+        "duration" : 2051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: workflow management button at index 1",
+      "time" : {
+        "start" : 1634656127325,
+        "stop" : 1634656128508,
+        "duration" : 1183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ac595dc15b6c8eb",
+        "name" : "Element is clicked.",
+        "source" : "2ac595dc15b6c8eb.png",
+        "type" : "image/png",
+        "size" : 36409
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I see workflowManagement page",
+      "time" : {
+        "start" : 1634656128511,
+        "stop" : 1634656130582,
+        "duration" : 2071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait jobs pending on my list button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656130583,
+        "stop" : 1634656132609,
+        "duration" : 2026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: jobs pending on my list button at index 1",
+      "time" : {
+        "start" : 1634656132613,
+        "stop" : 1634656133180,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15b227210d7e2e68",
+        "name" : "Element is clicked.",
+        "source" : "15b227210d7e2e68.png",
+        "type" : "image/png",
+        "size" : 36515
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I enter my reference: \"reference number\" text to reference number area at index 1",
+      "time" : {
+        "start" : 1634656133180,
+        "stop" : 1634656136952,
+        "duration" : 3772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61475e237b002339",
+        "name" : "The reference number has been entered.",
+        "source" : "61475e237b002339.png",
+        "type" : "image/png",
+        "size" : 55546
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait inquire button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656136952,
+        "stop" : 1634656139025,
+        "duration" : 2073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: inquire button at index 1",
+      "time" : {
+        "start" : 1634656139025,
+        "stop" : 1634656139605,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cc7a9bc70f339c9",
+        "name" : "Element is clicked.",
+        "source" : "6cc7a9bc70f339c9.png",
+        "type" : "image/png",
+        "size" : 55529
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: row button at index 1",
+      "time" : {
+        "start" : 1634656139605,
+        "stop" : 1634656140164,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "605f2aea2b0e9a36",
+        "name" : "Element is clicked.",
+        "source" : "605f2aea2b0e9a36.png",
+        "type" : "image/png",
+        "size" : 66161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait warning popup element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656140164,
+        "stop" : 1634656142225,
+        "duration" : 2061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: yes button at index 1",
+      "time" : {
+        "start" : 1634656142225,
+        "stop" : 1634656142692,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9630131faacd47e",
+        "name" : "Element is clicked.",
+        "source" : "f9630131faacd47e.png",
+        "type" : "image/png",
+        "size" : 59339
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait assign to pool button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656142693,
+        "stop" : 1634656145487,
+        "duration" : 2794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: assign to pool button at index 1",
+      "time" : {
+        "start" : 1634656145487,
+        "stop" : 1634656145967,
+        "duration" : 480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e290cef3c8de37d",
+        "name" : "Element is clicked.",
+        "source" : "4e290cef3c8de37d.png",
+        "type" : "image/png",
+        "size" : 57584
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait yes button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656145968,
+        "stop" : 1634656148012,
+        "duration" : 2044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: yes button at index 1",
+      "time" : {
+        "start" : 1634656148013,
+        "stop" : 1634656148462,
+        "duration" : 449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bed619523ae89c6e",
+        "name" : "Element is clicked.",
+        "source" : "bed619523ae89c6e.png",
+        "type" : "image/png",
+        "size" : 56073
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  I have to verify the text for: assign to pool popup at index 1",
+      "time" : {
+        "start" : 1634656148462,
+        "stop" : 1634656149006,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc647659266ed36c",
+        "name" : "Verification completed.",
+        "source" : "cc647659266ed36c.png",
+        "type" : "image/png",
+        "size" : 58618
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I need to just wait",
+      "time" : {
+        "start" : 1634656149007,
+        "stop" : 1634656159033,
+        "duration" : 10026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  I wait close button element 30 seconds at index 1",
+      "time" : {
+        "start" : 1634656159036,
+        "stop" : 1634656161121,
+        "duration" : 2085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I click element: close button at index 1",
+      "time" : {
+        "start" : 1634656161122,
+        "stop" : 1634656161688,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3da219d59689eac0",
+        "name" : "Element is clicked.",
+        "source" : "3da219d59689eac0.png",
+        "type" : "image/png",
+        "size" : 56073
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 54,
+    "attachmentsCount" : 26,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "GMLBCAGLASIN"
+  }, {
+    "name" : "thread",
+    "value" : "16196@GMLBCAGLASIN.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Orion Finance Finco Test Scenarios - İŞ AKIŞ"
+  }, {
+    "name" : "story",
+    "value" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager"
+  }, {
+    "name" : "suite",
+    "value" : "Orion Finance Finco Test Scenarios - İŞ AKIŞ"
+  }, {
+    "name" : "testClass",
+    "value" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/features/newFeatures/WorkflowManagement.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.features.newFeatures.WorkflowManagement_feature.Orion Finance Finco Test Scenarios - İŞ AKIŞ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Test" ]
+  },
+  "source" : "1e92e520abf5a61a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "GMLBCAGLASIN",
+    "children" : [ {
+      "name" : "16196@GMLBCAGLASIN.main(1)",
+      "children" : [ {
+        "name" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager",
+        "uid" : "1e92e520abf5a61a",
+        "parentUid" : "cf602a80c0fdae7969f4d016d18ce530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634656056224,
+          "stop" : 1634656161690,
+          "duration" : 105466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf602a80c0fdae7969f4d016d18ce530"
+    } ],
+    "uid" : "180391a1d5278cc768b764f903607fe8"
+  } ]
+}

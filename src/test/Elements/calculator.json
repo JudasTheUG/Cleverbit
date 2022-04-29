@@ -1,0 +1,43 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "calculator",
+        "parent": "",
+        "waitelement": "convertButton"
+      },
+      "elements": [
+        {
+          "amount": "//*[@id='amount']"
+        },
+        {
+          "fromCurrency": "//*[@id='midmarketFromCurrency']"
+        },
+        {
+          "toCurrency": "//*[@id='midmarketToCurrency']"
+        },
+        {
+          "swapButton": "//button[@aria-label='Swap currencies']"
+        },
+        {
+          "convertButton": "//button[text()='Convert']"
+        },
+        {
+          "currencyLabel": "//p[contains(@class,'result')]"
+        },
+        {
+          "fadedDigits": "//span[@class='faded-digits']"
+        },
+        {
+          "unitRates": "//*[contains(@class,'unit-rates')]//p"
+        },
+        {
+          "currencyListFrom": "//*[@id='midmarketFromCurrency-listbox']//div[2]"
+        },
+        {
+          "currencyListTo": "//*[@id='midmarketToCurrency-listbox']//div[2]"
+        }
+      ]
+    }
+  ]
+}

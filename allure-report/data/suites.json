@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Orion Finance Finco Test Scenarios - İŞ AKIŞ",
+    "children" : [ {
+      "name" : "Is Akis: TC005 - E2E Assign to Pool - Unit Manager",
+      "uid" : "1e92e520abf5a61a",
+      "parentUid" : "861794468b4e88a7a97d3a866dc68cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634656056224,
+        "stop" : 1634656161690,
+        "duration" : 105466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "861794468b4e88a7a97d3a866dc68cb2"
+  } ]
+}
